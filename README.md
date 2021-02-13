@@ -39,6 +39,7 @@ Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps
 ### Step 3: Define the Data Model
 #### 3.1 Conceptual Data Model
 The schema used for this project is the Star Schema with one main fact table and 3 dimentional tables as described below
+[Star](https://github.com/SumerBangera/Data-Engineering/blob/main/Captone Project - Yelp Data/images/Schema.png?raw=true)
 
 <img src="https://github.com/SumerBangera/Data-Engineering/blob/main/Captone Project - Yelp Data/images/Schema.png"/>
 
