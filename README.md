@@ -39,9 +39,10 @@ Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps
 ### Step 3: Define the Data Model
 #### 3.1 Conceptual Data Model
 The schema used for this project is the Star Schema with one main fact table and 3 dimentional tables as described below
-[Star](https://github.com/SumerBangera/Data-Engineering/blob/main/Captone Project - Yelp Data/images/Schema.png?raw=true)
 
-<img src="https://github.com/SumerBangera/Data-Engineering/blob/main/Captone Project - Yelp Data/images/Schema.png"/>
+![Star Schema](https://github.com/SumerBangera/Data-Engineering/blob/main/Captone%20Project%20-%20Yelp%20Data/images/Schema.png)
+
+The star schema has been optimized to support the regular, most frequent queries of the Analytics team to analyze the reviews of the restaurants. All relevant information have been added to the fact table to reduce the number of joins required for the analysis. However, the schema design has the flexibility to extract additional information from the dimension tables as and when required for the analysis with minimum number of JOINS. Therefore, the design also supports any additional ad hoc requirements where the Data Analyst/Scientist maybe required to extract additional details, for example, restaurant name, user information, etc.
 
 
 #### Fact Table
