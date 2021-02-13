@@ -22,7 +22,7 @@ This project uses the Yelp dataset to develop a cloud-based database to support 
 #### Describe and Gather Data
 The original dataset contains information about various businesses, user reviews, users, check-in details, etc. in separate JSON and CSV files. The original dataset has been sampled to only included restuarants businesses. 
 
-The dataset for this analysis has been prepared using the Kaggle kernal to filter the relevant data only. Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps about the data collection and preparation steps.
+The dataset for this analysis has been prepared using the Kaggle kernal to filter the relevant data only. Please refer the  [yelp_data_prep.ipynb](https://github.com/SumerBangera/Udacity-Data-Engineering-Capstone-Yelp-Data/blob/main/yelp_data_prep.ipynb) (Jupyter Notebook) for detailed steps about the data collection and preparation steps.
 
 The final prepared files include: filetype (rows, columns)
 1. restaurant_df - CSV (43965, 11)
@@ -34,7 +34,7 @@ These files were then uploaded to an Amazon S3 bucket for data storage before cr
 
 
 ### Step 2: Explore and Assess the Data
-Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps
+Please refer the [yelp_data_prep.ipynb](https://github.com/SumerBangera/Udacity-Data-Engineering-Capstone-Yelp-Data/blob/main/yelp_data_prep.ipynb) (Jupyter Notebook) for detailed steps
 
 ### Step 3: Define the Data Model
 #### 3.1 Conceptual Data Model
